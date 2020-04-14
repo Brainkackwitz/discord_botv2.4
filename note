@@ -1,0 +1,10 @@
+serverchannel = discord.Object(STATICS.channelname_Bot_channel)
+    msg = "{0} joined {1} ".format(member.mention, channel.name)
+    yield from client.send_message(msg,serverchannel)
+    yield from client.send_message(member,"You got automatically assigned the role **" + role.name + "**!\nA moderator will register you",channel.name)
+
+
+
+
+
+msg = "{0} join {1}".format(member.name,member.server.name)
