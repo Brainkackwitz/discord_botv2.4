@@ -5,6 +5,7 @@ import json
 import os.path
 from discord.ext import commands
 
+
 import re
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
